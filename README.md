@@ -1,6 +1,6 @@
 # VueJsCalculator
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple calculator project that permits to a user to do addition, multiplication, soustraction and division between two int.
 
 ## Recommended IDE Setup
 
