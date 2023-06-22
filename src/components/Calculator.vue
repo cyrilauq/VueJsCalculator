@@ -4,7 +4,7 @@
     </header>
     <div id="calculator">
         <CalculatorDisplayResult id="resultDisplay" :result="0" />
-        <CalculatorButton class="buttons" v-for="button in buttons" :content="button" />
+        <CalculatorButton class="buttons" v-for="button in buttons" :content="button" @click="(content) => buttonClicked(content)" />
     </div>
 </template>
 
@@ -34,6 +34,10 @@
         '.',
         '='
     ])
+
+    function buttonClicked(buttonContent: String) {
+        console.log(`Button clicked content: ${buttonContent}`)
+    }
 </script>
 
 <style scoped>

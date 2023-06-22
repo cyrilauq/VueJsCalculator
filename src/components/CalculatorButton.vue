@@ -1,5 +1,5 @@
 <template>
-    <button>
+    <button @click="$emit('click', content)">
         {{ content }}
     </button>
 </template>
@@ -8,6 +8,10 @@
     const props = defineProps({
         content: String
     })
+
+    const emits = defineEmits([
+        'click'
+    ])
 </script>
 
 <style scoped>
