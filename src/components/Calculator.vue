@@ -63,7 +63,7 @@
                     break;
             }
             console.log(`Operation ${operation} between ${num1} and ${num2}`);
-            
+            num1 = num2 = operation = ''
             console.log(`Result of operation: ${result.value}`);
         } else {
             if(/^[^0-9]*$/.test(buttonContent)) {
