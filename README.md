@@ -1,6 +1,6 @@
 # VueJsCalculator
 
-A simple calculator project that permits to a user to do addition, multiplication, soustraction and division between two int.
+A simple calculator project that permits to a user to do addition, multiplication, soustraction and division between two positive int.
 
 ## Recommended IDE Setup
 
